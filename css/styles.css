@@ -1,47 +1,104 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent: #2196F3;
+    --color-logo: #000000;
+    --color-heder-kontakts: rgba(117, 117, 117, 1);
+    --focus-color-link: rgba(33, 150, 243, 1);
+    --color-h1: #FFFFFF;
+}
+
 body {
+    color: var(--title-color);
     font-family: 'Roboto',
     sans-serif;
 }
 
-/* хедер */
-.header {
-    width: 1600px;
-    height: 80px;
-    background: #677478;
-    display: flex;
-    flex-direction: row;
-}
-
-.logo {
-    font-family: 'Raleway',
-    sans-serif;
-    font-size: 26px;
-    color: #2196F3;
+/* общее */
+.link {
     text-decoration: none;
+}
+.address {
+    font-style: normal;
+}
+.list {
+    list-style: none;
+}
+.text {
+    color: var(--text-color);
+}
+
+/* хедер */
+.logo {
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
-    margin-left: 215px;
-    padding-top: 24px;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+}
+.logo.logo-accent {
+    color: var(--color-logo);
+}
+.nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.kontakts .link{
+    color: var(--color-heder-kontakts);
+    font-weight: 500;
+    font-size: 14px;
+}
+.header .link:hover,
+.header .link:focus {
+    color: var(--focus-color-link);
 }
 
-.studio {
-    color: black;
+/* герой */
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-h1);
+    /* временно */
+    background-color: tomato;
+}
+.hero button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--color-h1);
+    background-color: var(--accent);
 }
 
-.menu-nav {
-
-
-.nav {
-
+/* особенности */
+.pecul h3 {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.pecul p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
-.link-studio {
-
+/* чем мы занимаемся */
+.what-are-we-doing {
+    font-size: 36px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
-.kontakts {
-
-}
-
-.hero {
-
+/* наша команда */
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
 }
