@@ -146,6 +146,7 @@ body {
 .button:focus {
     color: var(--color-h1);
     background-color: var(--accent);
+    cursor: pointer;
 }
 .item-title {
     font-weight: 700;
