@@ -30,8 +30,8 @@ body {
 }
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--color-logo);
     text-decoration: none;
@@ -50,6 +50,7 @@ body {
 .nav .link {
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
@@ -57,6 +58,7 @@ body {
     color: var(--color-heder-kontakts);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 .header .link:hover,
 .header .link:focus {
@@ -70,15 +72,18 @@ body {
 .hero h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-h1); 
     background-color: #2F303A; /* временно */
 }
 .hero button {
+    font-family: 'Roboto',
+    sans-serif;
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--color-h1);
     background-color: var(--accent);
@@ -87,6 +92,7 @@ body {
 /* особенности */
 .pecul h3 {
     font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -100,6 +106,7 @@ body {
 .what-are-we-doing h2,
 .team h2 {
     font-size: 36px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 }
 
@@ -107,13 +114,13 @@ body {
 .team h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .team p {
-    font-weight: 400;
     font-size: 16px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 
@@ -122,22 +129,25 @@ body {
     background-color: #2F303A; /* временно */
 }
 .address p {
-    font-weight: 400;
     font-size: 14px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--color-h1);
 }
 .address a {
-    font-weight: 400;
     font-size: 14px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 /* портфолио */
 .button {
+    font-family: 'Roboto',
+    sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--title-color);
     background-color: #F5F4FA;;
@@ -151,12 +161,13 @@ body {
 .item-title {
     font-weight: 700;
     font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
 .subtitle {
-    font-weight: 400;
     font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
